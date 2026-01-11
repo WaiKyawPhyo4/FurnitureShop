@@ -1,12 +1,14 @@
-import React from 'react'
+import { siteConfig } from "@/config/site";
+import MainNavigation from "./MainNavigation";
 
-function header() {
-  return <div className='w-full border-b'>
-    <div className='container flex items-center h-16 '>
-        Navigation
+function Header() {
+  return (
+    <div className="w-full border-b">
+      <div className="container flex h-16 items-center">
+        <MainNavigation items={siteConfig.mainNav} />
+      </div>
     </div>
-  </div>
-  
+  );
 }
 
-export default header
+export default Header;

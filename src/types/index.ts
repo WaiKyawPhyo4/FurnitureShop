@@ -1,7 +1,7 @@
 export interface NavItem {
   title: string;
   href?: string;
-  describtion?: string;
+  description?: string;
 }
 
 export interface NavItemWithChildren extends NavItem {

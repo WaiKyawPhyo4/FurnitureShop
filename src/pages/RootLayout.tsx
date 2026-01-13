@@ -1,5 +1,5 @@
 
-import Header from "@/components/layouts/Header";
+import Header from "@/components/layouts/header";
 import { Outlet } from "react-router";
 
 
